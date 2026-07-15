@@ -165,18 +165,33 @@ This project answers several real-world business questions using SQL.
 # 📂 Project Structure
 
 Database-Design-for-Ecommerce-Website/
-
-│── README.md
-│── ecommerce_database_setup.sql
-│── ecommerce_sql_queries.sql
-│── ER_Diagram.png
+Database-Design-for-Ecommerce-Website/
 │
-└── Screenshots
-    ├── Database_Tables.png
-    ├── Total_Revenue.png
-    ├── Top_Customers.png
-    ├── Best_Selling_Products.png
-    └── Monthly_Revenue.png
+├── README.md
+│
+├── sql/
+│   ├── ecommerce_database_setup.sql
+│   └── ecommerce_sql_queries.sql
+│
+├── dataset/
+│   ├── customers_table.png
+│   ├── products_table.png
+│   ├── orders_table.png
+│   ├── order_items_table.png
+│   └── payments_table.png
+│
+├── output/
+│   ├── total_revenue.png
+│   ├── revenue_by_product.png
+│   ├── top5_customers_byspending.png
+│   ├── top5_most_ordered_products.png
+│   ├── products_never_ordered.png
+│   ├── monthly_revenue.png
+│   ├── customer_ranking.png
+│   └── best_selling-products.png
+│
+└── er_diagram/
+    └── ER_Diagram.png
 
 
 
